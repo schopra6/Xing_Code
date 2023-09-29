@@ -1,0 +1,147 @@
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['jobrole_list'] =inter_df['jobrole_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['title_list'] =inter_df['title_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['tag_list'] =inter_df['tag_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['jobrole_list'] =inter_df['jobrole_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['title_list'] =inter_df['title_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['tag_list'] =inter_df['tag_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/xgb_train.py:37: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['interaction_type'] = ((data['interaction_type']==1) | (data['interaction_type']==2) | (data['interaction_type']==3)).astype(int)
+40820
+Accuracy: 99.80%
+0.19388348707720435
+mean 3.229 median 3.0 and mode 2
+mean3232.221 median 3236.5
+None
+(0.08254999999999908, 0.5185, 0.096, 0.056626666666666756, 0.034402063492063525, 0.03560822063492922)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['jobrole_list'] =inter_df['jobrole_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['title_list'] =inter_df['title_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['tag_list'] =inter_df['tag_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['jobrole_list'] =inter_df['jobrole_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['title_list'] =inter_df['title_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['tag_list'] =inter_df['tag_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/xgb_train.py:37: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['interaction_type'] = ((data['interaction_type']==1) | (data['interaction_type']==2) | (data['interaction_type']==3)).astype(int)
+39261
+Accuracy: 99.80%
+0.19756118214920823
+mean 3.229 median 3.0 and mode 2
+mean3232.3675 median 3236.5
+None
+(0.08184999999999908, 0.5185, 0.0995, 0.05707666666666667, 0.03432234126984127, 0.035581106114173026)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['jobrole_list'] =inter_df['jobrole_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['title_list'] =inter_df['title_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['tag_list'] =inter_df['tag_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['jobrole_list'] =inter_df['jobrole_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['title_list'] =inter_df['title_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/create_features.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  inter_df['tag_list'] =inter_df['tag_list'].apply(set)
+/workspace/home/Fairness_Recsys/PreselectRecsys/xgb_train.py:37: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data['interaction_type'] = ((data['interaction_type']==1) | (data['interaction_type']==2) | (data['interaction_type']==3)).astype(int)
+50157
+Accuracy: 99.39%
+0.22140191465195522
+mean 2.9465 median 3.0 and mode 2
+mean3820.07 median 3891.5
+None
+(0.08829999999999881, 0.547, 0.08025, 0.04680166666666672, 0.029164761904761936, 0.03195722966962524)
