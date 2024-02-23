@@ -32,6 +32,7 @@ Place interactions.csv,items.csv,users.csv files from http://2016.recsyschalleng
 
 ### 4. Train and run Recommendation system
 `cd models`
+
 Model used 
 
 - Content Similarity
