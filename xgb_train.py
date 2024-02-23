@@ -2,7 +2,7 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import pandas as pd
-from  metrics import challenge_score,compute_metrics,totalRelevant,GCE
+from  metrics.metrics import challenge_score,compute_metrics,totalRelevant,GCE
 from statistics import median,mean,mode
 import argparse
 features = [ 'interaction_type',

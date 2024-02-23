@@ -1,4 +1,6 @@
 # About
+ This respository is accompanied with my thesis titled "Investigating Demographic Bias in Job Recommendation System".
+ 
  Given a XING user, the recommender should predict those job postings (items) that the user will interact with in the next week. 
  With the existing problem of recommending job items, we try to find if there exists social bias in the recommendation system.
  
@@ -23,22 +25,25 @@ conda install -c conda-forge py-xgboost-cpu
 conda install -c conda-forge py-xgboost-gpu
 
 ### 2. Extract the files
-Place interactions.csv,items.csv,users.csv files from http://2016.recsyschallenge.com/ in Fairness_Recsys directory.  Since the data is unavailable , kindly ask the authors for it otherwise load it from /workspace/home/Recsysdata in DGX server.
-```bash
-|──Fairness_Recsys
-    ├── train_interactions.csv
-    ├── users.csv
-    ├── items.csv
-```
+Place interactions.csv,items.csv,users.csv files from http://2016.recsyschallenge.com/ in Fairness_Recsys directory.  Since the data is unavailable , kindly ask the authors.
 
 ### 3. Prepare customised biased users data
 `cd prepare_data`
 
 ### 4. Train and run Recommendation system
-`cd PreselectRecsys`
+`cd models`
+Model used<\br>
+- Content Similarity
+- ItemKNN
+- VAE
+- DropoutNet
+- Preselect
+
+
+
 
 ### 5 Generate Biased analysis on the output of the recommendations
-`cd results`
+`cd metrics`
 
  
  

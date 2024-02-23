@@ -1,0 +1,82 @@
+config_biased:
+  # This is a single line comment
+  config1:
+    fields:
+      industry_id : [0,21]
+      career_level : [4,5,6]
+      experience_years_experience : [0,1,2,3]
+    set_attr : 'gender'
+    proportion : [0.2,0.8]
+    choices : [0,1]
+
+  config2:
+    fields:
+      industry_id : [0,21]
+      career_level : [4,5,6]
+      experience_years_experience :  [4,5,6,7,100]
+    set_attr : 'gender'
+    proportion : [0.2,0.8]
+    choices : [0,1]
+
+  config3:
+    fields:
+      industry_id : [0,21]
+      career_level : [0,1,2,3,100]
+      experience_years_experience : [4,5,6,7,100]
+    set_attr : 'gender'
+    proportion : [0.8,0.2]
+    choices : [0,1]
+
+  config4:
+    fields:
+      industry_id : [0,21]
+      career_level : [0,1,2,3,100]
+      experience_years_experience : [0,1,2,3]
+    set_attr : 'gender'
+    proportion : [0.2,0.8]
+    choices : [0,1]
+
+  config5:
+    fields:
+      industry_id : [1,8]
+      career_level : [4,5,6]
+      experience_years_experience : [0,1,2,3]
+    set_attr : 'gender'
+    proportion : [0.7,0.3]
+    choices : [0,1]
+
+  config6:
+    fields:
+      industry_id : [1,8]
+      career_level : [4,5,6]
+      experience_years_experience : [4,5,6,7,100]
+    set_attr : 'gender'
+    proportion : [0.7,0.3]
+    choices : [0,1] 
+
+  config7:
+    fields:
+      industry_id : [1,8]
+      career_level : [0,1,2,3,100]
+      experience_years_experience :  [0,1,2,3,100]
+    set_attr : 'gender'
+    proportion : [0.7,0.3]
+    choices : [0,1]
+
+  config8:
+    fields:
+      industry_id : [1,8]
+      career_level : [0,1,2,3,100]
+      experience_years_experience : [4,5,6,7]
+    set_attr : 'gender'
+    proportion : [0.3,0.7]
+    choices : [0,1]           
+
+config_unbiased:
+  config1:
+    fields:
+      industry_id : [1,0,21,8]
+      career_level : [0,1,2,3,4,5,6,7,100]
+    set_attr : 'gender'
+    proportion : [0.5,0.5]
+    choices : [0,1]   
